@@ -1,0 +1,7 @@
+king, queen, rook, bishop, knight, pawn = map(int, input().split())
+print(1 - king, end=' ')
+print(1 - queen, end=' ')
+print(2 - rook, end=' ')
+print(2 - bishop, end=' ')
+print(2 - knight, end=' ')
+print(8 - pawn)
